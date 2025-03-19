@@ -1,64 +1,58 @@
-.header {
-  position: relative;
-  height: 100px;
-  background-color: purple;
-}
-p {
-  position: absolute;
+.top {
+  width: 800px;
+  margin: 20px auto;
+  background-color:#dcc9f4;
   text-align: center;
 }
-.text {
-  background-color: pink;
-  padding: 0 20px;
-  margin:  20px;
+p {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  background-color: #ffd9df;
 }
-.main {
+.middle {
+  width: 800px;
+  height: 800px;
+  margin: 20px auto;
+  text-align: center;
   position: relative;
-  height: 500px;
-  background-color: pink;
+
+  background-color: #ffd9df ;
 }
-#main-first-div {
+.middle div {
+  width: 200px;
+  height: 200px;
+  background-color: #87ceeb;
+}
+#middle01 {
   position: absolute;
   left: 100px;
   top: 100px;
-  width: 100px;
-  height: 100px;
-  background-color: lightblue;
 }
-#main-second-div {
+#middle02 {
   position: absolute;
-  left: 200px;
-  top: 200px;
-  width: 100px;
-  height: 100px;
-  background-color: lightblue;
-}
-#main-third-div {
-  position: absolute;
-  left:300px;
+  left: 300px;
   top: 300px;
-  width: 100px;
-  height: 100px;
-  background-color: lightblue;
 }
-.footer {
+#middle03 {
+  position: absolute;
+  left:500px;
+  top: 500px;
+}
+.bottom {
+  width: 800px;
   height: 300px;
-  background-color: violet;
+  margin: 0 auto;
+  background-color: #87ceeb;
 }
-#footer-first-div {
-  background-color: aqua;
-  height: 50px;
-  width: 200px;
+.bottom div {
+  width: 400px;
+  height: 100px;
+  background-color: #e5dcf0;
 }
-#footer-second-div {
-  background-color: aqua;
-  height: 50px;
-  width: 200px;
-  margin-left: 100px;
-}
-#footer-third-div {
-  background-color: aqua;
-  height: 50px;
-  width: 200px;
+#bottom02 {
   margin-left: 200px;
+}
+#bottom03 {
+  margin-left: 400px;
 }
