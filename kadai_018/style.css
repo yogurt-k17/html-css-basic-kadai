@@ -1,0 +1,64 @@
+.header {
+  position: relative;
+  height: 100px;
+  background-color: purple;
+}
+p {
+  position: absolute;
+  text-align: center;
+}
+.text {
+  background-color: pink;
+  padding: 0 20px;
+  margin:  20px;
+}
+.main {
+  position: relative;
+  height: 500px;
+  background-color: pink;
+}
+#main-first-div {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+#main-second-div {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+#main-third-div {
+  position: absolute;
+  left:300px;
+  top: 300px;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+.footer {
+  height: 300px;
+  background-color: violet;
+}
+#footer-first-div {
+  background-color: aqua;
+  height: 50px;
+  width: 200px;
+}
+#footer-second-div {
+  background-color: aqua;
+  height: 50px;
+  width: 200px;
+  margin-left: 100px;
+}
+#footer-third-div {
+  background-color: aqua;
+  height: 50px;
+  width: 200px;
+  margin-left: 200px;
+}
