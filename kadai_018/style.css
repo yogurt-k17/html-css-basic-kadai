@@ -51,8 +51,10 @@ p {
   background-color: #e5dcf0;
 }
 #bottom02 {
-  margin-left: 200px;
+  position: relative;
+  left: 200px;
 }
 #bottom03 {
-  margin-left: 400px;
+  position: relative;
+  left: 400px;
 }
